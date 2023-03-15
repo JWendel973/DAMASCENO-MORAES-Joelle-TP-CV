@@ -1,0 +1,63 @@
+body { /*corps de la page*/
+    background-image: url(couleur.jpg); /*image de fond de page*/
+    background-size: cover;             /*stop les repetitions de l'image*/
+}
+
+
+#cadre { /*block ayant le contenu de la page*/
+    background: linear-gradient(rgb(195, 248, 250), rgb(240, 173, 184)); /*dégradé de couleurs du fond du block*/
+    padding: 5%;
+    float: left;
+    border: 15px outset rgb(255, 255, 255);
+    margin: 10%;
+}
+
+
+.gauche{  /*block placé à la gauche*/
+    float: left;
+    text-align: center; /*centraliser le texte*/
+ }
+
+
+.droite{  /*block placé à la droite*/
+    float:right;
+}
+
+
+img{
+  border-radius: 30%;  /*bordure arrondi de l'image*/
+  width: 250px;        /*taille*/
+}
+
+
+h1{
+   font-family: Georgia, serif; /*police de texte*/
+}
+
+
+p , li , h4{
+   font-size: 25px;             /*taille de texte*/
+}
+
+
+h3, .exp , .form{
+    text-decoration: underline; /*texte souligné*/
+}
+
+
+#entre , #etab{
+    font-size: 20px;               /*taille du texte*/
+    font-style: italic;            /*style*/
+    font-family: Times, Times New Roman, serif;  /*police*/
+    color: rgb(10, 81, 212);
+}
+
+
+.contact , .competence , .langue , .loisirs {
+background: linear-gradient(rgb(248, 243, 177), rgb(248, 199, 125)); /*dégradé de couleurs du fond des blocks*/
+   border-radius: 50px;
+   padding: 50px;
+   margin: 10px;
+
+
+}
